@@ -1,0 +1,33 @@
+body {
+    background-color: #E29CD2
+}
+
+h1 {
+    text-align: center;
+    color: #C8C8CD;
+    font: Luminari;
+    position: relative;
+    top: 10px;
+}
+
+div {
+    text-align:center
+}
+
+ul {
+    display: inline-block;
+    text-align: left;
+}
+
+.done {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+.main {
+  position: relative;
+  left: 350px;
+  top: 50px;
+  width: 50%;
+  border: white solid 10px;
+}
