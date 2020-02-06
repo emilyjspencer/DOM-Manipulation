@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<img id="cats" src="cat.jpg">
+
+<button id="click" onclick="appearDisappear()">It's magic!!!!!!!</button>
+
+<script>
+function appearDisappear() {
+  var catFam = document.getElementById("cats") 
+    if(catFam.style.visibility === "hidden") {
+      catFam.style.visibility = "visible";
+    } else {
+      catFam.style.visibility = "hidden";
+    }
+  }
+ 
+</script>
+
+<style>
+ #cats {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+ }
+
+ #click {
+  margin: 0 auto;
+    display: block;
+ }
+
+
+</style>
+
+</body>
+</html>
