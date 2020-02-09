@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>To-Do List</title>
+    <link rel="stylesheet" type='text/css' href="index.css">
+  </head>
+  <body>
+    <h1>TO DO LIST</h1>
+    <div id="box">
+    <input type="text" id="enter" placeholder="Enter an item" value="Type here to add task">
+    <br>
+    <br>
+    <input type="submit" id="submit" value="Click me to add an item" onclick="addItem();">
+    <br>
+    <br>
+    <br>
+    <br>
+    </div>
+    <div id="list"></div>
+    </div>
+    <img id="pusheen1" src="pusheen1.jpg">
+    <br>
+    <img id="pusheen2" src="pusheen2.jpg">
+    
+  </body>
+  <script>
+    function addItem(){
+      var newItem = document.createElement("div"); // creates new div element for our list items 
+      newItem.innerHTML = document.getElementById("enter").value;
+      newItem.onclick = removeItem;
+      document.getElementById("list").appendChild(newItem);
+    }   
+    function removeItem() {
+      document.getElementById("list").removeChild("this");
+    } 
+
+   
+  
+    
+  
+  </script>
+</html>
