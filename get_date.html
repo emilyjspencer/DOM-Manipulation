@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1 align="center">Click to see the time.</h1>
+
+<div style="text-align:center;">
+  <button id="see" onclick="seeDate()">What time is it?</button>
+</div>
+
+
+<script>
+function seeDate() {
+  document.getElementById("date").innerHTML = Date();
+}
+</script>
+
+<style>
+  body {
+      background-color: pink;
+  }
+
+  #see {
+      width: 300px;
+      height: 90px;
+      color: blueviolet;
+      text-align: center;
+  }
+  
+</style>
+
+<p id="date"></p>
+
+</body>
+</html>
