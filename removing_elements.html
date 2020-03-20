@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<body>
+<div>
+  <p id="h3">I am an H3.</p>
+  <p id="h4">I am an H4. Will I disappear?.</p>
+</div>
+
+<button onclick="removeElement()">Remove Element</button>
+
+<script>
+function removeElement() {
+  var element = document.getElementById("h4");
+  element.remove();
+}
+</script>
+
+<style>
+
+  body {
+      background-color: violet;
+  }
+
+  button {
+      text-align: center;
+  }
+
+</style>
+
+</body>
+</html>
