@@ -1,6 +1,6 @@
 # NOTES
 
-* The **DOM** is an API (Application Program Interface)
+* The **DOM** is an API (Application Programming Interface)
 
 * **APIs** allow you to use their built-in functions to make changes to the HTML document.
 Using the DOM allows us to build web pages that change and react when the user does something
